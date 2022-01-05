@@ -1,4 +1,4 @@
-# Buttle Sort
+# Bubble Sort
 # https://www.algoexpert.io/questions/Bubble%20Sort
 
 import unittest
