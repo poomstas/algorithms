@@ -16,6 +16,6 @@ The test case contains a handful of simple example cases. The committed code is 
 [node_depths.py](https://github.com/poomstas/algorithms/blob/main/node_depths.py)
 Calculate the sum of all node depths in a binary tree.
 
-# Searching
+## Searching
 [binary_search.py](https://github.com/poomstas/algorithms/blob/main/binary_search.py)
 Do a binary search on a sorted array.
