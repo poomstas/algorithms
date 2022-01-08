@@ -19,3 +19,6 @@ Calculate the sum of all node depths in a binary tree.
 ## Searching
 [binary_search.py](https://github.com/poomstas/algorithms/blob/main/binary_search.py)
 Do a binary search on a sorted array.
+
+[depth_first_search.py](https://github.com/poomstas/algorithms/blob/main/depth_first_search.py)
+Depth-first Search on an acyclic tree-like structure.
