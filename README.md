@@ -12,6 +12,7 @@ The test case contains a handful of simple example cases. The committed code is 
 
 ## Trees
 [find_closest_value_in_BST.py](https://github.com/poomstas/algorithms/blob/main/find_closest_value_in_BST.py)
+Find the value closest to the input value in a BST.
 
 [node_depths.py](https://github.com/poomstas/algorithms/blob/main/node_depths.py)
 Calculate the sum of all node depths in a binary tree.
