@@ -4,8 +4,11 @@ Will post my solutions to different coding test algorithm problems here.
 The test case contains a handful of simple example cases. The committed code is validated using more extensive examples.
 
 
-## Lists
+## Arrays
 [two_number_sum.py](https://github.com/poomstas/algorithms/blob/main/two_number_sum.py)
+
+[spiral_traverse.py](https://github.com/poomstas/algorithms/blob/main/spiral_traverse.py)
+Traverse a 2D array in spiral, collecting all the values along the way.
 
 ## Sort
 [bubble_sort.py](https://github.com/poomstas/algorithms/blob/main/bubble_sort.py)
