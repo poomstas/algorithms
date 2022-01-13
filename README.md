@@ -10,6 +10,9 @@ The test case contains a handful of simple example cases. The committed code is 
 [spiral_traverse.py](https://github.com/poomstas/algorithms/blob/main/spiral_traverse.py)
 Traverse a 2D array in spiral, collecting all the values along the way.
 
+[move_element_to_end.py](https://github.com/poomstas/algorithms/blob/main/move_element_to_end.py)
+Move all 2's to the end of the array (for instance).
+
 ## Sort
 [bubble_sort.py](https://github.com/poomstas/algorithms/blob/main/bubble_sort.py)
 
