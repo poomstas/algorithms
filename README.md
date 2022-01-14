@@ -26,6 +26,9 @@ Calculate the sum of all node depths in a binary tree.
 [binary_tree_diameter.py](https://github.com/poomstas/algorithms/blob/main/binary_tree_diameter.py)
 Determine the diameter of a binary tree.
 
+[BST_traversal.py](https://github.com/poomstas/algorithms/blob/main/BST_traversal.py)
+Implement three different tree traversal algorithms: in-order, pre-order, and post-order.
+
 ## Searching
 [binary_search.py](https://github.com/poomstas/algorithms/blob/main/binary_search.py)
 Do a binary search on a sorted array.
