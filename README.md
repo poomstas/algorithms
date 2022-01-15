@@ -29,6 +29,9 @@ Determine the diameter of a binary tree.
 [BST_traversal.py](https://github.com/poomstas/algorithms/blob/main/BST_traversal.py)
 Implement three different tree traversal algorithms: in-order, pre-order, and post-order.
 
+[validate_BST.py](https://github.com/poomstas/algorithms/blob/main/validate_BST.py)
+Validate the values in a BST to ensure they are within expected ranges.
+
 ## Searching
 [binary_search.py](https://github.com/poomstas/algorithms/blob/main/binary_search.py)
 Do a binary search on a sorted array.

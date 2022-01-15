@@ -27,7 +27,7 @@ def postOrderTraverse(node, array):
     array.append(node.value)
     return array
 
-######################################################################3
+#######################################################################
 
 class BST:
     def __init__(self, value):
