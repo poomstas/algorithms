@@ -3,19 +3,13 @@
 
 import unittest
 
-def nodeDepths(root):
-    sums = []
-    calculateNodeDepths(root, 0, sums)
-    return sum(sums)
-
-def calculateNodeDepths(node, running_sum, sums):
+def nodeDepths(node, depth=0):
     if node is None:
-        return
+        return 0
 
-    sums.append(running_sum)
-
-    calculateNodeDepths(node.left, running_sum+1, sums)
-    calculateNodeDepths(node.right, running_sum+1, sums)
+    return depth + \
+        nodeDepths(node.left, depth+1) + \
+        nodeDepths(node.right, depth+1)
 
 #######################################################################
 

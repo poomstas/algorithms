@@ -23,6 +23,9 @@ Find the value closest to the input value in a BST.
 [node_depths.py](https://github.com/poomstas/algorithms/blob/main/node_depths.py)
 Calculate the sum of all node depths in a binary tree.
 
+[node_depths_alt.py](https://github.com/poomstas/algorithms/blob/main/node_depths_alt.py)
+Alternative solution to node depth calculation in a binary tree.
+
 [binary_tree_diameter.py](https://github.com/poomstas/algorithms/blob/main/binary_tree_diameter.py)
 Determine the diameter of a binary tree.
 
