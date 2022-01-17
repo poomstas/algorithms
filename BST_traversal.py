@@ -3,6 +3,7 @@
 
 import unittest
 
+# All O(N) time | O(N) space
 def inOrderTraverse(node, array):
 	if node is None:
 		return
