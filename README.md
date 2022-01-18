@@ -35,6 +35,9 @@ Implement three different tree traversal algorithms: in-order, pre-order, and po
 [validate_BST.py](https://github.com/poomstas/algorithms/blob/main/validate_BST.py)
 Validate the values in a BST to ensure they are within expected ranges.
 
+[min_height_BST.py](https://github.com/poomstas/algorithms/blob/main/min_height_BST.py)
+Calculate the minimum height of a BST after inputting a sorted list of values.
+
 ## Searching
 [binary_search.py](https://github.com/poomstas/algorithms/blob/main/binary_search.py)
 Do a binary search on a sorted array.
