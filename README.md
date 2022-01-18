@@ -17,6 +17,10 @@ Move all 2's to the end of the array (for instance).
 [smallest_difference.py](https://github.com/poomstas/algorithms/blob/main/smallest_difference.py)
 Given two arrays, find the two values that has the smallest difference. 
 
+[sorted_square_array.py](https://github.com/poomstas/algorithms/blob/main/sorted_square_array.py)
+Take a non-empty array of integers sorted in ascending order and return a new array of the same length with the squares of the original integers also sorted in ascending order. May contain negative values. Uses while loop.
+
+[sorted_square_array_alt.py](https://github.com/poomstas/algorithms/blob/main/sorted_square_array_alt.py) Alternative solution that uses a for loop. Cleaner. 
 
 ## Sort
 [bubble_sort.py](https://github.com/poomstas/algorithms/blob/main/bubble_sort.py)
@@ -52,6 +56,10 @@ Do a binary search on a sorted array.
 
 [depth_first_search.py](https://github.com/poomstas/algorithms/blob/main/depth_first_search.py)
 Depth-first Search on an acyclic tree-like structure.
+
+[search_in_sorted_matrix.py](https://github.com/poomstas/algorithms/blob/main/search_in_sorted_matrix.py)
+Find the coordinates of a target value in a sorted 2D matrix.
+
 
 
 
