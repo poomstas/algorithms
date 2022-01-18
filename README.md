@@ -6,6 +6,7 @@ The test case contains a handful of simple example cases. The committed code is 
 
 ## Arrays
 [two_number_sum.py](https://github.com/poomstas/algorithms/blob/main/two_number_sum.py)
+See if two numbers from a given array sum up to the target sum value.
 
 [spiral_traverse.py](https://github.com/poomstas/algorithms/blob/main/spiral_traverse.py)
 Traverse a 2D array in spiral, collecting all the values along the way.
@@ -13,8 +14,11 @@ Traverse a 2D array in spiral, collecting all the values along the way.
 [move_element_to_end.py](https://github.com/poomstas/algorithms/blob/main/move_element_to_end.py)
 Move all 2's to the end of the array (for instance).
 
+
 ## Sort
 [bubble_sort.py](https://github.com/poomstas/algorithms/blob/main/bubble_sort.py)
+Standard implementation of a bubble sort.
+
 
 ## Trees
 [find_closest_value_in_BST.py](https://github.com/poomstas/algorithms/blob/main/find_closest_value_in_BST.py)
@@ -37,6 +41,7 @@ Validate the values in a BST to ensure they are within expected ranges.
 
 [min_height_BST.py](https://github.com/poomstas/algorithms/blob/main/min_height_BST.py)
 Calculate the minimum height of a BST after inputting a sorted list of values.
+
 
 ## Searching
 [binary_search.py](https://github.com/poomstas/algorithms/blob/main/binary_search.py)
