@@ -3,6 +3,7 @@
 
 import unittest
 
+# O(Nlog(N)) time | O(N) space
 def minHeightBst(array):
     tree = None
     range_indx_queue = [(0, len(array)-1)]
