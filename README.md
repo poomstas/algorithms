@@ -14,6 +14,9 @@ Traverse a 2D array in spiral, collecting all the values along the way.
 [move_element_to_end.py](https://github.com/poomstas/algorithms/blob/main/move_element_to_end.py)
 Move all 2's to the end of the array (for instance).
 
+[smallest_difference.py](https://github.com/poomstas/algorithms/blob/main/smallest_difference.py)
+Given two arrays, find the two values that has the smallest difference. 
+
 
 ## Sort
 [bubble_sort.py](https://github.com/poomstas/algorithms/blob/main/bubble_sort.py)
