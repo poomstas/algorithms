@@ -22,6 +22,8 @@ Take a non-empty array of integers sorted in ascending order and return a new ar
 
 [sorted_square_array_alt.py](https://github.com/poomstas/algorithms/blob/main/sorted_square_array_alt.py) Alternative solution that uses a for loop. Cleaner. 
 
+[validate_subsequence.py](https://github.com/poomstas/algorithms/blob/main/validate_subsequence.py) Taking two 1D arrays and seeing if one is a subsequence of the other.
+
 ## Sort
 [bubble_sort.py](https://github.com/poomstas/algorithms/blob/main/bubble_sort.py)
 Standard implementation of a bubble sort.
