@@ -62,6 +62,10 @@ Depth-first Search on an acyclic tree-like structure.
 [search_in_sorted_matrix.py](https://github.com/poomstas/algorithms/blob/main/search_in_sorted_matrix.py)
 Find the coordinates of a target value in a sorted 2D matrix.
 
+## Strings
+[leetcode_roman_to_integer.py](https://github.com/poomstas/algorithms/blob/main/leetcode_roman_to_integer.py)
+Convert Roman numeral string to integer.
+
 
 
 
