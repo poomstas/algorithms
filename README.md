@@ -66,6 +66,9 @@ Find the coordinates of a target value in a sorted 2D matrix.
 [leetcode_roman_to_integer.py](https://github.com/poomstas/algorithms/blob/main/leetcode_roman_to_integer.py)
 Convert Roman numeral string to integer.
 
+## Linked Lists
+[remove_duplicates_from_linked_list.py](https://github.com/poomstas/algorithms/blob/main/remove_duplicates_from_linked_list.py)
+Singly linked list, with integer nodes arranged in sorted order. Remove all duplicates.
 
 
 
