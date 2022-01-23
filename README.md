@@ -51,6 +51,9 @@ Validate the values in a BST to ensure they are within expected ranges.
 [min_height_BST.py](https://github.com/poomstas/algorithms/blob/main/min_height_BST.py)
 Calculate the minimum height of a BST after inputting a sorted list of values.
 
+[find_kth_largest_value_in_bst.py](https://github.com/poomstas/algorithms/blob/main/find_kth_largest_value_in_bst.py)
+Find the kth largest value in a BST.
+
 
 ## Searching
 [binary_search.py](https://github.com/poomstas/algorithms/blob/main/binary_search.py)
