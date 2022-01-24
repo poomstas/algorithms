@@ -24,6 +24,9 @@ Take a non-empty array of integers sorted in ascending order and return a new ar
 
 [validate_subsequence.py](https://github.com/poomstas/algorithms/blob/main/validate_subsequence.py) Taking two 1D arrays and seeing if one is a subsequence of the other.
 
+[leetcode_two_sum.py](https://github.com/poomstas/algorithms/blob/main/leetcode_two_sums.py)
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
 ## Sort
 [bubble_sort.py](https://github.com/poomstas/algorithms/blob/main/bubble_sort.py)
 Standard implementation of a bubble sort.
@@ -52,7 +55,7 @@ Validate the values in a BST to ensure they are within expected ranges.
 Calculate the minimum height of a BST after inputting a sorted list of values.
 
 [find_kth_largest_value_in_bst.py](https://github.com/poomstas/algorithms/blob/main/find_kth_largest_value_in_bst.py)
-Find the kth largest value in a BST.
+Find the kth largest value in a BST. O(N) time | O(N) space.
 
 
 ## Searching
@@ -69,8 +72,9 @@ Find the coordinates of a target value in a sorted 2D matrix.
 [leetcode_roman_to_integer.py](https://github.com/poomstas/algorithms/blob/main/leetcode_roman_to_integer.py)
 Convert Roman numeral string to integer.
 
-[leetcode_longest_common_prefix.py](https://github.com/poomstas/algorithms/blob/main/leetcode_longest_common_prefix.py)
-Find the longest common prefix string amongst an array of strings.
+[leetcode_palindrome_number.py](https://github.com/poomstas/algorithms/blob/main/leetcode_palindrome_number.py)
+Given an integer x, return true if x is palindrome integer.
+
 
 ## Linked Lists
 [remove_duplicates_from_linked_list.py](https://github.com/poomstas/algorithms/blob/main/remove_duplicates_from_linked_list.py)
