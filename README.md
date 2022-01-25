@@ -27,6 +27,9 @@ Take a non-empty array of integers sorted in ascending order and return a new ar
 [leetcode_two_sum.py](https://github.com/poomstas/algorithms/blob/main/leetcode_two_sums.py)
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
+[tournament_winner.py](https://github.com/poomstas/algorithms/blob/main/tournament_winner.py)
+Determine the winner of the tournament after reviewing all match results.
+
 ## Sort
 [bubble_sort.py](https://github.com/poomstas/algorithms/blob/main/bubble_sort.py)
 Standard implementation of a bubble sort.
