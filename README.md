@@ -86,7 +86,8 @@ Singly linked list, with integer nodes arranged in sorted order. Remove all dupl
 [sum_of_linked_lists.py](https://github.com/poomstas/algorithms/blob/main/sum_of_linked_lists.py)
 You're given two linked lists with potentially unequal length. Each linked list represents a non-negative integer, where each node in the linked list is a digit of that integer (first nodein each linked list always represents the least significant digit of the integer). Write a function that returns the head of a new linked list that represents the sum of the integers represented by the two input linked lists.
 
-
+[remove_kth_node_from_end.py](https://github.com/poomstas/algorithms/blob/main/remove_kth_node_from_end.py)
+Singly Linked List and an integer k. Remove kth node from end. 
 
 
 
