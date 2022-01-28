@@ -92,6 +92,9 @@ You're given two linked lists with potentially unequal length. Each linked list 
 [remove_kth_node_from_end.py](https://github.com/poomstas/algorithms/blob/main/remove_kth_node_from_end.py)
 Singly Linked List and an integer k. Remove kth node from end. 
 
+[reverse_linked_list.py](https://github.com/poomstas/algorithms/blob/main/reverse_linked_list.py)
+Reverse the order of singly linked list.
+
 
 
 # To Practice Next:
