@@ -58,6 +58,9 @@ Validate the values in a BST to ensure they are within expected ranges.
 Calculate the minimum height of a BST after inputting a sorted list of values.
 
 [find_kth_largest_value_in_bst.py](https://github.com/poomstas/algorithms/blob/main/find_kth_largest_value_in_bst.py)
+Find the kth largest value in a BST. O(h+k) time | O(h) space.
+
+[find_kth_largest_value_in_bst_alt.py](https://github.com/poomstas/algorithms/blob/main/find_kth_largest_value_in_bst_alt.py)
 Find the kth largest value in a BST. O(N) time | O(N) space.
 
 
