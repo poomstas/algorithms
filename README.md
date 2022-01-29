@@ -64,7 +64,7 @@ Find the kth largest value in a BST. O(h+k) time | O(h) space.
 Find the kth largest value in a BST. O(N) time | O(N) space.
 
 [invert_binary_tree.py](https://github.com/poomstas/algorithms/blob/main/invert_binary_tree.py)
-Invert a binary tree.
+Invert a binary tree (recursive solution).
 
 
 ## Searching
