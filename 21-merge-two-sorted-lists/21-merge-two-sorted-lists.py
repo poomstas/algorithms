@@ -13,8 +13,6 @@ class Solution:
         current_node_out = output
         
         while current_node_1 is not None or current_node_2 is not None:
-            #current_node_out = ListNode() if current_node_out is None else current_node_out.next
-            
             val_1 = current_node_1.val if current_node_1 is not None else float('inf')
             val_2 = current_node_2.val if current_node_2 is not None else float('inf')
             
