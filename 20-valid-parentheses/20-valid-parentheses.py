@@ -7,9 +7,9 @@ class Solution:
             '{':'}'
         }
         for bracket in s:
-            if bracket in types.keys():
+            if bracket in ['(', '[', '{']:
                 stack.append(types[bracket])
-            elif bracket in types.values():
+            elif bracket in [')', ']', '}']:
                 if len(stack)==0 or bracket!=stack.pop():
                     return False
         return len(stack)==0
