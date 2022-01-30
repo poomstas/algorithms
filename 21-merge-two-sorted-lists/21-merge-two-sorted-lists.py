@@ -6,11 +6,11 @@
 
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        current_node_1, current_node_2 = list1, list2
         if list1 is None and list2 is None:
             return None
+        
         output = ListNode()
-        current_node_out = output
+        current_node_1, current_node_2, current_node_out = list1, list2, output
         
         while current_node_1 is not None or current_node_2 is not None:
             val_1 = current_node_1.val if current_node_1 is not None else float('inf')
@@ -28,5 +28,3 @@ class Solution:
                 current_node_out = current_node_out.next
                 
         return output
-        
-        
