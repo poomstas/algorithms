@@ -30,6 +30,9 @@ Given an array of integers nums and an integer target, return indices of the two
 [tournament_winner.py](https://github.com/poomstas/algorithms/blob/main/tournament_winner.py)
 Determine the winner of the tournament after reviewing all match results.
 
+[kadanes_algorithm.py](https://github.com/poomstas/algorithms/blob/main/kadanes_algorithm.py)
+Write a function that takes in a non-empty array of integers and returns the maximum sum that can be obtained by summing up all of the integers in a non-empty subarray of the input array. A subarray must only contain adjacent numbers (numbers next to each other in the input array).
+
 ## Sort
 [bubble_sort.py](https://github.com/poomstas/algorithms/blob/main/bubble_sort.py)
 Standard implementation of a bubble sort.
