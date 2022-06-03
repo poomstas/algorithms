@@ -4,7 +4,6 @@ class Solution:
         queue = [[sr, sc]]
         startingCol = image[sr][sc]
         while len(queue):
-            print(queue)
             r, c = queue.pop()
             image[r][c] = newColor
             if self.validCoord(r+1, c, R, C) and image[r+1][c]==startingCol and image[r+1][c]!=newColor: # up
@@ -19,3 +18,5 @@ class Solution:
     
     def validCoord(self, r, c, R, C):
         return r >= 0 and r < R and c >= 0 and c < C
+    
+        
