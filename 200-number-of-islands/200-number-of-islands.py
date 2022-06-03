@@ -24,16 +24,13 @@ class Solution:
         if grid[r][c]=='0':
             return neighbors
         
-        if r >= 1 and grid[r-1][c]=='1' and not self.visited[r-1][c]:
+        if r >= 1 and not self.visited[r-1][c] and grid[r-1][c]=='1':
             neighbors.append([r-1, c])
-            
-        if r < self.R-1 and grid[r+1][c]=='1' and not self.visited[r+1][c]:
+        if r < self.R-1 and not self.visited[r+1][c] and grid[r+1][c]=='1':
             neighbors.append([r+1, c])
-            
-        if c >= 1 and grid[r][c-1]=='1' and not self.visited[r][c-1]:
+        if c >= 1 and not self.visited[r][c-1] and grid[r][c-1]=='1':
             neighbors.append([r, c-1])
-            
-        if c < self.C-1 and grid[r][c+1]=='1' and not self.visited[r][c+1]:
+        if c < self.C-1 and not self.visited[r][c+1] and grid[r][c+1]=='1':
             neighbors.append([r, c+1])
             
         return neighbors
