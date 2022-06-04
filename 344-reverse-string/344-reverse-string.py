@@ -8,5 +8,3 @@ class Solution:
             s[L], s[R] = s[R], s[L]
             L += 1
             R -= 1
-
-        
