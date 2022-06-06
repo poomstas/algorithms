@@ -3,6 +3,9 @@
 Will post my solutions to different coding test algorithm problems here. 
 The test case contains a handful of simple example cases. The committed code is validated using more extensive examples.
 
+<a href="https://github.com/KnlnKS/leetcode-stats">
+  <img alt="LeetCode Stat Card" src="https://apu5rh8gxk.execute-api.us-east-1.amazonaws.com/default/leetcode-stats?username=KnlnKS" width="400"/>
+</a>
 
 ## Arrays
 [two_number_sum.py](https://github.com/poomstas/algorithms/blob/main/two_number_sum.py)
