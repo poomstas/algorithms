@@ -19,10 +19,10 @@ class Solution:
         return n_enclaves
         
     def exploreEnclave(self, grid, r, c, R, C):
-        if not self.validCoord(r, c, R, C) or grid[r][c]!=1:
+        if not self.validCoord(r, c, R, C) or grid[r][c] != 1:
             return 0
         
-        grid[r][c]=2
+        grid[r][c] = 2 # Mark visited land
         
         return 1 + \
             self.exploreEnclave(grid, r-1, c, R, C) + \
@@ -34,7 +34,7 @@ class Solution:
         return r>=0 and c>=0 and r<=R-1 and c<=C-1
         
         
-    '''
+    ''' Faster to do DFS than to manually keep track of visits using separate array.
     def exploreEnclave(self, grid, r_i, c_i, R, C):
         n_enclave = 0
         queue = [[r_i, c_i]]
@@ -59,5 +59,4 @@ class Solution:
         if c < C-1 and grid[r][c+1]==1:
             neighbors.append([r, c+1])
         return neighbors
-
     '''
