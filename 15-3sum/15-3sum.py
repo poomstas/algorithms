@@ -4,20 +4,17 @@ class Solution:
         out = []
         prev_val = -float('inf')
         for i, fixed_val in enumerate(nums):
+            if fixed_val > 0:
+                break
             if prev_val == fixed_val:
                 continue
             prev_val = fixed_val
-            temp_out = self.twoSum(nums, i)
-            if temp_out != []:
-                for value in temp_out:
-                    if value not in out:
-                        out.append(value)
+            self.twoSum(nums, i, out)
         return out
             
-    def twoSum(self, nums, first_i):
+    def twoSum(self, nums, first_i, out):
         target = -nums[first_i]
         i, j = first_i+1, len(nums)-1
-        out = []
         while i < j:
             a, b = nums[i], nums[j]
             if a+b < target:
@@ -28,4 +25,5 @@ class Solution:
                 out.append([nums[first_i], a, b])
                 i += 1
                 j -= 1
-        return out
+                while i < j and nums[i] == nums[i-1]:
+                    i += 1
