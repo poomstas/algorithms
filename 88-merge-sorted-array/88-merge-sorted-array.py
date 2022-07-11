@@ -11,9 +11,7 @@ class Solution:
             b = nums2[j] if j < n else float('inf')
             nums1[pointer] = min(a, b)
             
-            if a < b:
-                i += 1
-            elif a == b:
+            if a <= b:
                 i += 1
             else:
                 j += 1
