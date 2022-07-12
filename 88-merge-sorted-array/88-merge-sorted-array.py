@@ -3,16 +3,30 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
-        nums1_copy = nums1[:] # Not the most optimal solution because it uses O(m) space, but it works.
-        i, j = 0, 0
+        p, j = m-1, n-1
         
-        for pointer in range(m + n):
-            a = nums1_copy[i] if i < m else float('inf')
-            b = nums2[j] if j < n else float('inf')
-            nums1[pointer] = min(a, b)
+        for i in reversed(range(len(nums1))):
+            if j < 0:
+                break
+            if p < 0:
+                nums1[i], nums2[j] = nums2[j], nums1[i]
+                j -= 1
+                continue
+                
+            P, I, J = nums1[p], nums1[i], nums2[j]
             
-            if a <= b:
-                i += 1
+            if P < J:
+                nums1[i], nums2[j] = nums2[j], nums1[i]
+                j -= 1
             else:
-                j += 1
+                nums1[p], nums1[i] = nums1[i], nums1[p]
+                p -= 1
             
+# Interview Tip: Whenever you're trying to solve an array problem in-place, always consider the possibility of iterating backwards instead of forwards through the array. It can completely change the problem, and make it a lot easier.
+
+'''
+[4,5,6,0,0,0]
+3
+[1,2,3]
+3
+'''
