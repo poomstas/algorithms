@@ -32,8 +32,6 @@ class Solution:
         digit = 1
         
         for char in reversed(s[starting_indx:ending_indx]):
-            if char not in numchar:
-                return self.process_clipping(value)
             value += digit * int(char)
             digit *= 10
             
