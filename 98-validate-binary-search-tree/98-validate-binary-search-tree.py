@@ -4,19 +4,17 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        return self.isValidBSTHelper(root)
-      
-    def isValidBSTHelper(self, node, leftmax=float('inf'), rightmin=-float('inf')):
+        return self.validateBST(root)
+    
+    def validateBST(self, node, LB=-float('inf'), UB=float('inf')):
+        # LB: Lower Bounds, UB: Upper Bounds. val should be in between.
         if node is None:
             return True
         
-        if node.val >= leftmax or node.val <= rightmin:
+        if not (LB < node.val < UB):
             return False
-        
-        L_valid = self.isValidBSTHelper(node.left, node.val, rightmin)
-        R_valid = self.isValidBSTHelper(node.right, leftmax, node.val)
-        
-        return L_valid and R_valid
+    
+        return self.validateBST(node.left, LB, node.val) and \
+               self.validateBST(node.right, node.val, UB)
