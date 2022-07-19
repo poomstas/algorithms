@@ -5,15 +5,12 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def maxDepth(self, node, depth=1) -> int:
+    def maxDepth(self, node, depth=0) -> int:
         if node is None:
-            if depth!=1:
-                return depth
-            else:
-                return 0
+            return depth
         
-        depth_L = self.maxDepth(node.left, depth+1) if node.left is not None else depth
-        depth_R = self.maxDepth(node.right, depth+1) if node.right is not None else depth
+        depth += 1
+        depth_L = self.maxDepth(node.left, depth) if node.left is not None else depth
+        depth_R = self.maxDepth(node.right, depth) if node.right is not None else depth
             
         return max(depth_L, depth_R)
-        
