@@ -14,8 +14,7 @@ class Solution:
         
         L = self.getMaxDepth(node.left, depth+1)
         R = self.getMaxDepth(node.right, depth+1)
-        depth = max(L, R)
         
-        return depth
+        return max(L, R)
         
         
