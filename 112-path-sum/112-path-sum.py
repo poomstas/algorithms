@@ -10,16 +10,15 @@ class Solution:
     
     def checkPathSum(self, node, targetSum, runningSum=0):
         if node is None:
-            return False
+            return
         
         runningSum += node.val
         
         if node.left is None and node.right is None:
-            return runningSum == targetSum
+            return targetSum == runningSum
         
-        L_has_pathsum = self.checkPathSum(node.left, targetSum, runningSum)
-        R_has_pathsum = self.checkPathSum(node.right, targetSum, runningSum)
+        L_path_sum = self.checkPathSum(node.left, targetSum, runningSum)
+        R_path_sum = self.checkPathSum(node.right, targetSum, runningSum)
         
-        return L_has_pathsum or R_has_pathsum
+        return L_path_sum or R_path_sum
             
-        
