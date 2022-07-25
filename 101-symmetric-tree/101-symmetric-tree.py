@@ -4,15 +4,21 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from collections import deque
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
-        return self.isMirror(root, root)
-        
-    def isMirror(self, node_A, node_B):
-        if node_A is None and node_B is None:
-            return True
-        if node_A is None or node_B is None:
-            return False
-        return node_A.val==node_B.val \
-            and self.isMirror(node_A.right, node_B.left) \
-            and self.isMirror(node_A.left, node_B.right)
+        queue = deque([[root, root]])
+        while queue:
+            item = queue.popleft()
+            nodeA, nodeB = item
+            if nodeA is None and nodeB is not None:
+                return False
+            if nodeA is not None and nodeB is None:
+                return False
+            if nodeA is None and nodeB is None:
+                continue
+            if nodeA.val != nodeB.val:
+                return False
+            queue.append([nodeA.left, nodeB.right])
+            queue.append([nodeA.right, nodeB.left])
+        return True
