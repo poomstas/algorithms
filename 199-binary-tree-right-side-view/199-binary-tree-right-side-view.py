@@ -10,25 +10,22 @@ class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
         if root is None:
             return []
-        queue = deque([root, None,])
-        rightside = []
-        curr = root
         
-        while queue:
-            prev, curr = curr, queue.popleft()
+        next_queue = deque([root])
+        output_list = []
+        
+        while next_queue:
+            queue, next_queue = next_queue, deque([])
             
-            while curr:
-                if curr.left:
-                    queue.append(curr.left)
-                if curr.right:
-                    queue.append(curr.right)
-                    
-                prev, curr = curr, queue.popleft()
+            while queue:
+                node = queue.popleft()
+                if node.left:
+                    next_queue.append(node.left)
+                if node.right:
+                    next_queue.append(node.right)
                 
-            rightside.append(prev.val)
+            output_list.append(node.val)
             
-            if queue:
-                queue.append(None)
+        return output_list
                 
-        return rightside
         
